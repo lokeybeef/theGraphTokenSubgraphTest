@@ -25,14 +25,14 @@ dataSources:
       eventHandlers:
         - event: Approval(indexed address,indexed address,uint256)
           handler: handleApproval
-        - event: MinterAdded(indexed address)
-          handler: handleMinterAdded
-        - event: MinterRemoved(indexed address)
-          handler: handleMinterRemoved
-        - event: NewOwnership(indexed address,indexed address)
-          handler: handleNewOwnership
-        - event: NewPendingOwnership(indexed address,indexed address)
-          handler: handleNewPendingOwnership
+        #- event: MinterAdded(indexed address)
+          #handler: handleMinterAdded
+        #- event: MinterRemoved(indexed address)
+          #handler: handleMinterRemoved
+        #- event: NewOwnership(indexed address,indexed address)
+          #handler: handleNewOwnership
+        #- event: NewPendingOwnership(indexed address,indexed address)
+          #handler: handleNewPendingOwnership
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
       file: ./src/mapping.ts
