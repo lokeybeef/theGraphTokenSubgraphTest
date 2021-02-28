@@ -1,4 +1,6 @@
 specVersion: 0.0.2
+description: Playing around with SubGraphs. Building from The Graph ERC20 contract
+repository: https://github.com/lokeybeef/theGraphTokenSubgraphTest.git
 schema:
   file: ./schema.graphql
 dataSources:
@@ -14,10 +16,10 @@ dataSources:
       language: wasm/assemblyscript
       entities:
         - Approval
-        - MinterAdded
-        - MinterRemoved
-        - NewOwnership
-        - NewPendingOwnership
+        #- MinterAdded
+        #- MinterRemoved
+        #- NewOwnership
+        #- NewPendingOwnership
         - Transfer
       abis:
         - name: Contract
